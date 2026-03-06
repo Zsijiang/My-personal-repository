@@ -32,8 +32,10 @@ TEXINPUTS=../Preambles:$TEXINPUTS BIBINPUTS=..:$BIBINPUTS latexmk -xelatex -inte
 
 ### 第 3 步：打开 PDF 进行视觉验证
 ```bash
-open [文件名].pdf          # macOS
-# xdg-open [文件名].pdf    # Linux
+# macOS
+open [文件名].pdf
+# Linux
+xdg-open [文件名].pdf
 ```
 
 ### 第 4 步：报告结果

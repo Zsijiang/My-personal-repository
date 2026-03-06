@@ -31,8 +31,10 @@
 
 ### 第 4 步：浏览器中验证
 ```bash
-open docs/slides/[讲座文件名].html          # macOS
-# xdg-open docs/slides/[讲座文件名].html    # Linux
+# macOS
+open docs/slides/[讲座文件名].html
+# Linux
+xdg-open docs/slides/[讲座文件名].html
 ```
 - 确认幻灯片渲染正常
 - 图片正确显示

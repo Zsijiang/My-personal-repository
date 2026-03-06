@@ -15,7 +15,7 @@
 
 ### 第 2 步：扫描所有文件中的引用键
 
-**LaTeX 文件 (.tex):** 搜索 `\cite{}`、`\citet{}`、`\citep{}`、`\citeauthor{}`、`\citeyear{}`
+**LaTeX 文件 (.tex):** 搜索 `\cite{}`、`\citet{}`、`\citep{}`、`\citeauthor{}`、`\citeyear{}`、`\nocite{}`
 
 **Quarto/Markdown 文件 (.qmd/.md):** 搜索 `@key`、`[@key]`、`[@key1; @key2]`
 
